@@ -1,0 +1,187 @@
+body{
+
+    font-family: Abel;
+    margin: 0 0 0 0;
+}
+
+
+header{
+
+    margin-bottom: 10px;
+    background-color: rgb(11, 12, 94);
+}
+#home{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#home > div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.home_img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+
+
+.header_links > a{
+
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+
+.flex_tnea_code > p{
+
+    padding-right: 20px;
+    padding-top: 25px;
+    margin: 0 0 0 0;
+    color: rgb(11, 12, 94);
+    background-color: yellow;
+    
+}
+
+.tnea_code{
+
+    padding-left: 10px;
+}
+
+#about_us{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about_us_info{
+
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about_us_stats > div{
+
+    padding: 25px 25px 25px 25px;
+    background-color:rgb(11, 12, 94) ;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.stats{
+
+    font-size: 25px;
+}
+
+.welcome_cit{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(11, 12, 94);
+}
+
+.academics_title{
+
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(11, 12, 94);
+}
+
+#academics{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+
+
+.academics_button{
+
+    padding: 30px 30px 30px 30px;
+    border: none;
+    background-color: yellow ;
+    font-size: 16px;
+    color: rgb(11, 12, 94);
+    border-radius: 10px;
+    
+}
+
+.placements_title{
+
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(11, 12, 94);
+}
+
+#placements{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+
+.infrastructure_title{
+
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(11, 12, 94);
+
+}
+
+#infrastructure{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infrastructure_info{
+
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    
+    display: inline;
+    text-align: center;
+    
+}
+
+footer > p{
+
+    background-color:rgb(11, 12, 94) ;
+    color: white;
+}
+
+
+
+
+
